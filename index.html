@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./js/index.js" type="module"></script>
+  </head>
+  <body>
+    <canvas id="my-canvas"></canvas>
+    <div class="container">
+      <h1 class="title">Tic Tac Toe</h1>
+      <h3 class="player-turn">Player 1's Turn</h3>
+      <table class="table">
+        <tr>
+          <td><button class="tile"></button></td>
+          <td class="vertical"><button class="tile"></button></td>
+          <td><button class="tile"></button></td>
+        </tr>
+        <tr>
+          <td class="horizontal"><button class="tile"></button></td>
+          <td class="vertical horizontal"><button class="tile"></button></td>
+          <td class="horizontal"><button class="tile"></button></td>
+        </tr>
+        <tr>
+          <td><button class="tile"></button></td>
+          <td class="vertical"><button class="tile"></button></td>
+          <td><button class="tile"></button></td>
+        </tr>
+      </table>
+      <button class="restart-btn">Restart Game</button>
+    </div>
+    <script src="./js/index.min.js"></script>
+  </body>
+</html>

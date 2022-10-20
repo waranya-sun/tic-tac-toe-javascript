@@ -36,7 +36,7 @@ function handleTileClick(e, idx) {
   const symbol = currentPlayer === 1 ? 'x.svg' : 'o.svg';
   e.target.setAttribute(
     'style',
-    `background-image: url(../img/${symbol}); background-repeat:no-repeat; background-size: 10rem;`
+    `background-image: url(./img/${symbol}); background-repeat:no-repeat; background-size: 10rem;`
   );
   e.target.disabled = true;
   gameTrack[idx] = currentPlayer;
